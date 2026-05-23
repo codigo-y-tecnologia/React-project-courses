@@ -1,0 +1,88 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* La altura mínima es igual a la altura de la ventana */
+}
+
+.container-fluid.bg-dark {
+    padding: 1rem;
+    /* Espaciado interno opcional */
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+    /* Color del texto normal */
+    text-decoration: none;
+    /* Sin subrayado */
+    transition: all 0.3s ease;
+    /* Suaviza la transición del hover */
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+    /* Cambia el color del texto al pasar el cursor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Efecto de sombra */
+    background-color: rgba(0, 0, 0, 0.1);
+    /* Fondo semi-transparente */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    padding: 5px;
+    /* Espaciado interno para que se vea mejor */
+}
+
+.dropdown-menu .dropdown-item {
+    color: darkcyan;
+    /* Color del texto normal */
+    background-color: rgba(153, 142, 142, 0.384);
+    /* Sin subrayado */
+    transition: all 0.3s ease;
+    /* Suaviza la transición del hover */
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: black;
+    /* Cambia el color del texto al pasar el cursor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Efecto de sombra */
+    background-color: rgba(12, 69, 134, 0.384);
+    /* Fondo semi-transparente */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    padding: 5px;
+    /* Espaciado interno para que se vea mejor */
+}
+
+.iCreditos {
+    max-height: 200px;
+    /* Limita la altura de la imagen */
+    margin: auto;
+    /* Centra la imagen vertical y horizontalmente */
+}
+
+
+/* .iCreditos {
+    width: 160px;
+    height: auto;
+    margin-left: -200px;
+    margin-top: -320px;
+} */
+
+footer {
+    margin-top: auto;
+    /* Empuja el Footer hacia el final */
+    background-color: #343a40;
+    /* Color de fondo oscuro */
+    color: #ffc107;
+    /* Color del texto */
+    text-align: center;
+    padding: 1rem 0;
+    /* Espaciado interno */
+}
